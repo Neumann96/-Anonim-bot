@@ -9,7 +9,7 @@ from SQL_Anonim import add, add_message
 
 proxy_url = 'http://proxy.server:3128'
 storage = MemoryStorage()
-bot = Bot('5895365753:AAH6Un-U3Hqn3zT2WAfWbMfzLPyRlPBEeWA', proxy=proxy_url)
+bot = Bot('', proxy=proxy_url)
 dp = Dispatcher(bot=bot, storage=storage)
 ID = False
 ref = ''
